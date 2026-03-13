@@ -1,8 +1,6 @@
 # LimeAndLemon
-Lime and Lemon is a Scoop Bucket by TheRealOwenJ.
+Lime and Lemon is a Scoop Bucket by TheRealOwenJ, it hosts different apps for Scoop to install.
 
-It hosts different apps for Scoop to install.
-
-Scoop is a command-line installer for Windows.
+Scoop is a command-line installer for Windows, download it at:
 
 https://scoop.sh/
