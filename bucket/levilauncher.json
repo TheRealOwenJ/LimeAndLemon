@@ -8,42 +8,22 @@
         "64bit": {
             "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v0.3.6/LeviLauncher_windows_amd64.zip",
             "hash": "fdf4cccf03072a145b5f602174dbec879ff9d67fd4d0a57d30d3a453474a2382"
-        },
-        "32bit": {
-            "url": "",
-            "hash": ""
-        },
-        "arm64": {
-            "url": "",
-            "hash": ""
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "LeviLauncher.exe",
-    "env_add_path": [],
     "persist": [
         "LeviLauncher_data"
     ],
     "checkver": {
-        "github": "LiteLDev/LeviLauncher"
+        "github": {
+            "user": "LiteLDev",
+            "repo": "LeviLauncher"
+        }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v$version/LeviLauncher_windows_amd64.zip"
-            },
-            "32bit": {
-                "url": ""
-            },
-            "arm64": {
-                "url": ""
             }
         },
         "hash": {
