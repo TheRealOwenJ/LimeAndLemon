@@ -1,0 +1,54 @@
+{
+    "version": "0.3.6",
+    "description": "Minecraft Bedrock Edition GDK Launcher for Windows",
+    "homepage": "https://github.com/LiteLDev/LeviLauncher",
+    "license": "LGPL-3.0",
+    "notes": "This is only the launcher. LeviLauncher requires a real, purchased edition of Minecraft Bedrock Edition.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v0.3.6/LeviLauncher_windows_amd64.zip",
+            "hash": "fdf4cccf03072a145b5f602174dbec879ff9d67fd4d0a57d30d3a453474a2382"
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
+        },
+        "arm64": {
+            "url": "",
+            "hash": ""
+        }
+    },
+    "pre_install": "",
+    "installer": {
+        "script": ""
+    },
+    "post_install": [],
+    "uninstaller": {
+        "script": ""
+    },
+    "bin": "LeviLauncher.exe",
+    "env_add_path": [],
+    "persist": [
+        "LeviLauncher_data"
+    ],
+    "checkver": {
+        "github": "LiteLDev/LeviLauncher"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v$version/LeviLauncher_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": ""
+            },
+            "arm64": {
+                "url": ""
+            }
+        },
+        "hash": {
+            "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v$version/SHA256SUMS",
+            "regex": "LeviLauncher_windows_amd64\\.zip\\s+([a-fA-F0-9]{64})"
+        }
+    }
+}
