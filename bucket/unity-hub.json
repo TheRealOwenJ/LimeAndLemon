@@ -1,0 +1,22 @@
+{
+  "version": "3.16.4",
+  "description": "A Hub to manager your Unity installations and projects. This manifest uses self-hosted installers.",
+  "homepage": "https://unity.com/",
+  "license": "Proprietary Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/TheRealOwenJ/cdn/releases/download/1.0/app-64.7z",
+      "hash": "2ebd6ec751def14897c275049ee6194512d8424ee911dee3c0818e21c1781755",
+      "installer": {
+        "type": "7zip"
+      }
+    }
+  },
+  "bin": "Unity Hub.exe",
+  "shortcuts": [
+    [
+      "Unity Hub.exe",
+      "Unity Hub"
+    ]
+  ]
+}
