@@ -1,5 +1,5 @@
 {
-    "version": "0.3.6",
+    "version": "0.3.10",
     "description": "Minecraft Bedrock Edition GDK Launcher for Windows",
     "homepage": "https://github.com/LiteLDev/LeviLauncher",
     "license": {
@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v0.3.6/LeviLauncher_windows_amd64.zip",
+            "url": "https://github.com/LiteLDev/LeviLauncher/releases/download/v0.3.10/LeviLauncher_windows_amd64.zip",
             "hash": "fdf4cccf03072a145b5f602174dbec879ff9d67fd4d0a57d30d3a453474a2382"
         }
     },
