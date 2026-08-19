@@ -4,7 +4,7 @@
     "homepage": "https://tic80.com",
     "license": "MIT",
     "url": "https://github.com/TheRealOwenJ/TIC-80PRO/releases/download/upstream-6b5fea9c/tic80-windows-pro.zip",
-    "hash": "12aa47e205072c4960d86316f8940da862bf3429f1adba0ef70c5441caa6de0e",
+    "hash": "0dd1c744bf8b0e55fe6c955f23f66b2095cd076bf4db548627f81c04c9fea3e8"
     "bin": "tic80.exe",
     "shortcuts": [
         [
