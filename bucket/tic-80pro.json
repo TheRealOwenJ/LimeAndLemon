@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "github": "TheRealOwenJ/TIC-80PRO",
+        "github": "https://github.com/TheRealOwenJ/TIC-80PRO",
         "regex": "upstream-([0-9a-f]{8})"
     },
     "autoupdate": {
